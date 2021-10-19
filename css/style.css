@@ -1,0 +1,87 @@
+*{ /* to all page */
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{ /* body */
+    font-family: montserrat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #BDFDBD,#CCD7FF,#FFB395);
+}
+.container{ /* container */
+    border: 5px solid #333333;
+    background: #666;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cal-body{ /* calculator body */
+    width: 350px;
+    background: linear-gradient(to bottom right, #ffffff,#9b9b9b,#ededed);
+    border-radius: 20px;
+}
+input[type="text"]{ /* result place */
+    height: 60px;
+    width: 330px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #7e7e7e;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: #DEFDFF;
+}
+form .buttons { /* buttons calculator */
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+}
+input[type="button"] { 
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 55px;
+    border-radius: 10px;
+    border: 2px solid #7e7e7e;
+    background: linear-gradient(to bottom right, #f1f1f1, #87a0ff);
+    cursor: pointer;
+    transition: all .1s;
+}
+input.light-green{
+    background: linear-gradient(to bottom right, #f1f1f1, #6adf74);
+}
+input.light-red {
+    background: linear-gradient(to bottom right, #ede2e2, #f73737);
+    border: 2px solid #e34d4d;
+}
+input.light-red:hover {
+    background: linear-gradient(to bottom right, #f19696, #f73737);
+    border: 2px solid #e34d4d;
+}
+input.light-orange:hover{
+    background: linear-gradient(to bottom right, #ede2e2, #e3bb4d);
+    border: 2px solid #e3bb4d;
+}
+.currency{
+    font-size: 19px !important;
+}
+
+p.para { /* footer */
+    padding-top: 15px;
+    font-size: 13px;
+    color: #9db1fc;
+    font-family: -webkit-pictograph;
+}
+p .red {
+    color: #660000;
+    text-decoration: none;
+}
